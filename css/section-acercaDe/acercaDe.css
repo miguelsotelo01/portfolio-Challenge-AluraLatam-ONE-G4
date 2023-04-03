@@ -1,0 +1,53 @@
+/*Section de acercaDe*/
+
+section.about {
+    background-color: #40cfff;
+    border-radius: 15px;
+}
+
+section.about div h3.titulo{
+    text-decoration: underline;
+}
+section.about div.about-container p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: justify;
+}
+
+section.about div.about-container img {
+    margin: 16px;
+}
+section.about:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+
+@media only screen and (max-width: 768px) {
+    section.about {
+      border-radius: 15px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+      transition: box-shadow 0.3s ease-in-out;
+    }
+    section.about:hover {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    section.about div {
+      text-align: center;
+    }
+    section.about div h3.titulo{
+      text-decoration: none;
+      margin-top: 16px;
+    }
+    section.about div.about-container p {
+      font-size: 16px;
+      line-height: 20px;
+      text-align: left;
+      padding: 0 16px;
+    }
+    section.about div.about-container img {
+      display: block;
+      margin: 16px auto;
+    }
+  }
+  
+  

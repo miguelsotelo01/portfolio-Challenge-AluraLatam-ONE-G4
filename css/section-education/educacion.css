@@ -1,0 +1,45 @@
+/* Section de la Educacion*/
+section.academic {
+    background-color: #40cfff;
+    border-radius: 15px;
+}
+
+section.academic div.courses {
+    margin: 0 auto;
+    text-align: center;
+}
+
+section.academic div.courses ul {
+    margin: 0;
+    padding: 0;
+}
+
+section.academic div.courses ul li {
+    padding: 0;
+    margin: 32px;
+}
+
+section.academic div.courses ul li.course-img {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+section.academic div.courses ul li.course-img:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+section.academic div.courses ul li.course-img img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Media Query para dispositivos móviles */
+@media (max-width: 767px) {
+    section.academic div.courses ul li {
+        margin: 16px;
+    }
+}

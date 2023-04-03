@@ -1,0 +1,18 @@
+section.footer {
+    height: 10vh;
+    margin-top: 20px;
+    background-color: #40cfff;
+    border-radius: 15px;
+}
+
+section.footer div.rodape {
+    font-weight: 1000;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+}
+
+section.footer div.rodape p.informacion {
+    margin-bottom: 1em;
+    text-align: center;
+}

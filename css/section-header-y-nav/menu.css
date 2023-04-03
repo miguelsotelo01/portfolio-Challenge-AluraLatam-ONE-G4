@@ -1,0 +1,83 @@
+/*Section del header*/
+section.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-end;
+    margin-bottom: 20px;
+    height: 10vh;
+    border-radius: 8px;
+    background-color: #40cfff;
+}
+section.menu header.icono-menu{
+    padding-left: 10px;
+}
+.icono__barra{
+    width: 40px;
+}
+
+section header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 16px;
+    color: #464646;
+}
+section header h3.menu-title {
+    margin-left: 8px;
+}
+
+section.menu nav ul.menu-list {
+    display: flex;
+    padding-right: 20px;
+}
+
+section.menu nav li {
+    font-size: 14px;
+    font-weight: 400;
+
+}
+section.menu ul.menu-list li.menu-list-item:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+    section.menu {
+      height: auto;
+      flex-direction: column;
+      justify-content: center;
+      padding: 20px;
+      border-radius: 0;
+    }
+  
+    section.menu header.icono-menu {
+      margin-bottom: 20px;
+    }
+  
+    section.menu nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    section.menu nav ul.menu-list {
+      flex-direction: column;
+      padding-right: 0;
+    }
+  
+    section.menu nav li {
+      margin-bottom: 10px;
+      text-align: center;
+    }
+  
+    section.menu li.menu-list-item-c {
+      margin-top: 20px;
+      text-align: center;
+    }
+  }
+  
